@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/netherite_leggings"
+    },
+    "cases": [
+      {
+        "when": "leggings",
+        "model": {
+          "type": "model",
+          "model": "item/fired_leggins"
+        }
+      },
+      {
+        "when": "test",
+        "model": {
+          "type": "model",
+          "model": "item/diamond_sword"
+        }
+      }
+    ]
+  }
+}

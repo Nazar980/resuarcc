@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/netherite_chestplate"
+    },
+    "cases": [
+      {
+        "when": "chestplate",
+        "model": {
+          "type": "model",
+          "model": "item/fired_chestplate"
+        }
+      },
+      {
+        "when": "test",
+        "model": {
+          "type": "model",
+          "model": "item/diamond_sword"
+        }
+      }
+    ]
+  }
+}
